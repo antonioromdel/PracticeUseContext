@@ -1,0 +1,81 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: start;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.main{
+  margin: 0 auto;
+  width: 90%;
+  border-radius: 5px;
+  background-color: white;
+  min-height: 80vh;
+  color: black;
+  padding-top: 2rem;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header-link{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logueo{
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  background-color: aquamarine;
+  padding: 15px;
+  border-radius: 5px;
+  opacity: .7;
+  transition: all .2s ease;
+  font-weight: bold;
+}
+
+.logueo:hover{
+  opacity: 1;
+}
